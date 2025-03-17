@@ -1,0 +1,16 @@
+name: 'Zoocha Editorial Recipe'
+description: 'Installs and configures Zoocha editoral modules.'
+type: 'Feature'
+recipes:
+  - zoocha-seo-recipe
+  - zoocha-cke5-recipe
+install:
+  - field_group
+  - linkit
+  - content_lock
+  - pathauto
+  - redirect
+  - ckeditor5
+  - diff
+  - tagify
+  - quick_node_clone

@@ -11,7 +11,7 @@ To install the Zoocha Editorial recipe, follow the steps below:
 4. Run the following command:
 
     ```sh
-    ddev drush recipe recipes/custom/admin-theme-starter-recipe
+    ddev drush recipe recipes/custom/zr-editorial-bundle
     ```
 
 This command will execute the Zoocha Editorial recipe installation.

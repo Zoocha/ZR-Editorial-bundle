@@ -2,8 +2,8 @@ name: 'Zoocha Editorial Recipe'
 description: 'Installs and configures Zoocha editoral modules.'
 type: 'Feature'
 recipes:
-  - zoocha-seo-recipe
-  - zoocha-cke5-recipe
+  - zr-seo-bundle
+  - cke5-recipe
 install:
   - field_group
   - linkit

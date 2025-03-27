@@ -1,6 +1,6 @@
-# Zoocha Editorial Recipe Installation Guide
+# ZR Editorial Recipe Installation Guide
 
-To install the Zoocha Editorial recipe, follow the steps below:
+To install the ZR Editorial recipe, follow the steps below:
 
 1. Open your terminal.
 2. Navigate to your project directory. 
@@ -14,4 +14,4 @@ To install the Zoocha Editorial recipe, follow the steps below:
     ddev drush recipe recipes/custom/zr-editorial-bundle
     ```
 
-This command will execute the Zoocha Editorial recipe installation.
+This command will execute the ZR Editorial recipe installation.

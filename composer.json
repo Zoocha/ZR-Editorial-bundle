@@ -13,7 +13,7 @@
         "drupal/tagify": "^1.2",
         "drupal/quick_node_clone": "^1.22",
         "zr/zr-seo-bundle": "^1.0",
-        "zr/cke5-recipe": "^1.0",
+        "zr/zr-cke5-recipe": "^1.0",
         "zr/zr-paragraph-bundle": "^1.0"
     },
     "authors": [

@@ -3,7 +3,7 @@ description: 'Installs and configures Zoocha editoral modules.'
 type: 'Feature'
 recipes:
   - zr-seo-bundle
-  - cke5-recipe
+  - zr-cke5-recipe
 install:
   - field_group
   - linkit

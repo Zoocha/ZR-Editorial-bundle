@@ -1,17 +1,15 @@
-# ZR Editorial Recipe Installation Guide
+# ZR Editorial Bundle Installation Guide
 
-To install the ZR Editorial recipe, follow the steps below:
+To install the ZR Editorial Bundle, follow the steps below:
 
-1. Open your terminal.
-2. Navigate to your project directory. 
-3. Add the below in the Drupal Root's composer.json installer-paths
-```sh
-"web/recipes/custom/{$name}": ["type:drupal-recipe"]
-```
-4. Run the following command:
+1. Ensure the below has been added to the `composer.json` **installer-paths**:
+    ```sh
+    "web/recipes/custom/{$name}": ["type:drupal-recipe"]
+    ```
+2. Run `composer require zr/zr-editorial-bundle`
+3. Run the following command (within `/web` directory):
 
     ```sh
     ddev drush recipe recipes/custom/zr-editorial-bundle
     ```
 
-This command will execute the ZR Editorial recipe installation.
